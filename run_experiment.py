@@ -18,7 +18,7 @@ DURACAO_S = 10  # Duração de cada sinal (s)
 FS = 48000
 
 # Salva o arquivo de resultados no mesmo diretório do script
-OUTPUT_CSV_PATH = "C:/Users/ATM2\Desktop/Leis fisicas com espectro/Revisão/Final_Revisão_erros/Rho(t)_Como_Prova_Gemini/segundo teste falsicabilidade/resultados_dependencia_monotonica.csv"
+OUTPUT_CSV_PATH = "resultados_dependencia_monotonica.csv"
 TEMP_WAV_DIR = "temp_signals"
 
 # --- Controles de Variabilidade para Robustez ---
@@ -101,4 +101,5 @@ def main():
     print(f"Resultados salvos em: '{OUTPUT_CSV_PATH}'")
 
 if __name__ == "__main__":
+
     main()
